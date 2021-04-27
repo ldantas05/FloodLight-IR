@@ -53,7 +53,7 @@ The next step will require you to have a way to launch a server in your computer
 Open a bash window and send the following request changing the values in between <> and ** ** following the API guide remeber to delete ** and <> :
 
 ```
-curl -X POST 'https://api.twitch.tv/helix/channel_points/custom_rewards?broadcaster_id=*<broadcaster_id>*' \
+curl -X POST 'https://api.twitch.tv/helix/channel_points/custom_rewards?broadcaster_id=<broadcaster_id>' \
 -H 'client-id: <client_ID>' \
 -H 'Authorization: Bearer <Auth ID> ' \
 -H 'Content-Type: application/json' \
